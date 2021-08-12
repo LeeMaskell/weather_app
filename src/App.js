@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div id="body" style={{ backgroundImage: "url(/darkClouds.jpg)", 
+    <div id="body" style={{ backgroundImage: "url(resources/darkClouds.jpg)", 
                             backgroundRepeat: "no-repeat", 
                             backgroundPosition: "center", 
                             backgroundSize: "cover",
