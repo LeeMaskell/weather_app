@@ -17,10 +17,10 @@ html, body {
   padding: 0;
 }
 a:visited {
-  color: black;
+  color: white;
 }
 a:link {
-  color: black;
+  color: white;
 }
 #body{
   overflow-y: scroll;
@@ -83,9 +83,6 @@ h1{
   top: 50%;
   left: 5%;
   display: flex;
-  background-color: rgb(211,211,211,0.2);
-  border-radius: 5px;
-
 }
 #tempDataDisplay{
   display: flex;
@@ -172,6 +169,8 @@ hr{
     top: 40%;
     left: 0;
     color: black;
+    background-color: rgb(211,211,211,0.2);
+    border-radius: 5px;
   }
   #tempDataDisplay{
     color: black;
