@@ -5,8 +5,8 @@ export function updateData(dataObject) {
     let date = new Date();
     document.getElementById('currentDate').innerText = date.toDateString();
     document.getElementById('temp').innerText = convertToCelsius(dataObject.main.temp) + "°"; 
-    document.getElementById('tempMax').innerText = `Max: ${convertToCelsius(dataObject.main.temp_max)} °`;
-    document.getElementById('tempMin').innerText = `Min:  ${convertToCelsius(dataObject.main.temp_max)} °`;
+    document.getElementById('tempMax').innerText = `Max: ${convertToCelsius(dataObject.main.temp_max)}°`;
+    document.getElementById('tempMin').innerText = `Min:  ${convertToCelsius(dataObject.main.temp_max)}°`;
     document.getElementById('city').innerText = dataObject.name;
     document.getElementById('weather').innerText = `Weather:     ${dataObject.weather[0].description}`;
     if(dataObject.rain == undefined) { // checks if rain is present in the data object

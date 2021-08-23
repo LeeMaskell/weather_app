@@ -16,7 +16,12 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
+a:visited {
+  color: black;
+}
+a:link {
+  color: black;
+}
 #body{
   overflow-y: scroll;
   display: grid;
@@ -62,7 +67,7 @@ input, textarea {
   font-size: 1.5rem;
 }
 .btn{
-  width: 15%;
+  width: 18%;
   background-color: orange;
   border: none;
   opacity: 1;
@@ -78,6 +83,9 @@ h1{
   top: 50%;
   left: 5%;
   display: flex;
+  background-color: rgb(211,211,211,0.2);
+  border-radius: 5px;
+
 }
 #tempDataDisplay{
   display: flex;
@@ -89,7 +97,7 @@ h1{
 }
 #tempExtremes{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items:flex-start;
   font-size: 1rem;
   font-family: 'Roboto';
@@ -159,12 +167,29 @@ hr{
   }
   #summaryDisplay{
     flex-direction: column;
-    position: relative;
-    top: 75%;
-    color: darkgray;
+    width: 100%;
+    position: absolute; /*absolute used as relative positioning has a display issue in safari */
+    top: 40%;
+    left: 0;
+    color: black;
   }
   #tempDataDisplay{
     color: black;
+  }
+  #temp{
+    margin: auto;
+  }
+  #tempExtremes{
+    
+  }
+  #conditionsDisplay{
+    text-align: center;
+  }
+  #city{
+    margin: auto;
+  }
+  #currentDate{
+    margin: auto;
   }
   #weatherDetails{
     padding-top: 5%;
