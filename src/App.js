@@ -1,5 +1,5 @@
-import PrimaryDisplay from './PrimaryDisplay';
-import Sidebar from './Sidebar';
+import PrimaryDisplay from './components/presentational/PrimaryDisplay';
+import Sidebar from './components/presentational/Sidebar';
 import clouds from './resources/darkClouds.jpg';
 
 

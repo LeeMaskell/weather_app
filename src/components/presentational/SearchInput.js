@@ -1,4 +1,4 @@
-import { searchButton } from './SearchButton.js';
+import { searchButton } from '../container/SearchButton.js';
 
 export const SearchInput = () => {
     return (

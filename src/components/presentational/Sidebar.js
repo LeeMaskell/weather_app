@@ -1,5 +1,5 @@
 import SearchInput from './SearchInput';
-import PresetCities from './PresetCities';
+import PresetCities from '../container/PresetCities';
 import WeatherDetails from './WeatherDetails';
 
 const Sidebar = () => {
